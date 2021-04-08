@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1 form</title>
+</head>
+<body>
+    <div align="center">
+    <form action="/xyz.php">
+        <fieldset style="width: 50%">
+            <legend align="center"><h3>Assignment 1</h3> </legend>   
+        <table align="center" >
+            <tr>
+                <td>
+                    <b>Name:</b>
+                </td>
+                <td><input type="text" autofocus="on"></td>
+            </tr>
+            <tr>
+                <td><b> Branch:</b></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><b>Year:</b></td>
+                <td><input list="year" name="year">
+                    <datalist id="year">
+                      <option value="First Year">
+                      <option value="Second Year">
+                      <option value="Third Year">
+                      <option value="Fourth Year">
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Internship-type:</b></td>
+                <td> <input type="radio" name="time">
+                    <label >Full-time</label><br>
+                    <input type="radio" name="time">
+                    <label >part-time</label></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td><b>Languages:</b></td>
+                <td><input type="checkbox">
+                    <label >HTML</label><br>
+                    <input type="checkbox">
+                    <label>CSS</label><br>
+                    <input type="checkbox">
+                    <label >JAVASCRIPT</label><br>
+                    <input type="checkbox">
+                    <label>PHP</label><br>
+                    <input type="checkbox">
+                    <label >BOOTSTRAP</label>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Email:</b></td>
+                <td><input type="email" placeholder="For future contact ...."></td>
+            </tr>
+            <tr>
+                <td><b>Conatct no:</b></td>
+                <td><input type="tel" placeholder="Contact number"  maxlength="10" minlength="10"></td>
+            </tr>
+           <td> <th><button type="submit"><b>Submit</b></button> </th></td>
+        </table>
+    </form>
+</div>
+</fieldset>
+</body>
+</html>
